@@ -38,10 +38,15 @@ header .top-content button:hover {
 }
 
 header .content {
+    height: 90%;
+    padding: 0 100px;
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
-    padding: 0 100px;
+    align-items: center;
+    justify-content: center;
+
 }
 
 header .content .text {
