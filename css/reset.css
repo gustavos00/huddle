@@ -1,0 +1,20 @@
+:root {
+    --light-blue: #edfbfe; 
+    --dark-blue: #00252e;
+    --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red: Red: hsl(0, 100%, 63%);
+
+   --body-font: 'Open Sans', sans-serif;
+   --header-font: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.flex {
+    display: flex;
+}

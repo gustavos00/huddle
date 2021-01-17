@@ -1,0 +1,98 @@
+header {
+    height: 42vw;
+    min-height: 615px;
+
+    background: url("/assets/img/bg-hero-desktop.svg ") no-repeat;
+    background-size: 100%;
+    background-color: var(--light-blue);
+    box-shadow: 0px 0px 30px -20px #000000;
+}
+
+header .top-content {
+    padding: 2rem 100px;
+    justify-content: space-between;
+}
+
+header .top-content button {
+    width: 150px;
+
+    border: 0;
+    border-radius: 30px;
+    background-color: white;
+
+    color: gray;
+    font-weight: bold;
+    letter-spacing: .6px;
+    box-shadow: 0px 0px 16px -11px #000000;
+
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+header .top-content button:hover { 
+    width: 160px;
+    
+    color: #525252;
+    box-shadow: 0px 0px 16px -9px #000000;
+}
+
+header .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    padding: 0 100px;
+}
+
+header .content .text {
+    width: 35vw;
+    min-width: 560px;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+header .content .text h1 {
+    width: 500px;
+
+    font-family: var(--header-font);
+    font-size: 40px;
+    color: var(--dark-blue)
+}
+
+header .content .text p {
+    margin: 1rem 0; 
+    font-family: var(--body-font);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+header .content img {
+    width: 45vw;
+    min-width: 650px;
+}
+
+header .content button {
+    height: 50px;
+    width: 300px;
+
+    border: 0;
+    border-radius: 30px;
+    
+    color: white;
+    background-color: var(--pink);
+    box-shadow: 0px 0px 16px -9px #000000;
+
+    font-family: var(--body-font);
+
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+header .content button:hover {
+    width: 310px;
+    background-color: hsl(322, 93%, 70%);
+    box-shadow: 0px 0px 16px -7px #000000;
+}
